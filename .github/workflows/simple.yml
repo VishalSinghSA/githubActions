@@ -10,3 +10,8 @@ jobs:
         run: |
           node -v
           npm -v
+  run-window-command:
+    runs-on: windows-latest
+    steps:
+      - name: Directory powershell
+        run: Get-Location
